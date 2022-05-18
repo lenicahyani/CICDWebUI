@@ -1,0 +1,467 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:MiniProject:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.github.javafaker:javafaker:jar -> duplicate declaration of version 1.0.2 @ line 86, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+Progress (1): 2.7/4.7 kBProgress (1): 4.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (4.7 kB at 885 B/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+Progress (1): 2.7/12 kBProgress (1): 5.5/12 kBProgress (1): 8.2/12 kBProgress (1): 11/12 kB Progress (1): 12 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 kB at 6.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom
+Progress (1): 2.7/33 kBProgress (1): 5.5/33 kBProgress (1): 8.2/33 kBProgress (1): 11/33 kB Progress (1): 14/33 kBProgress (1): 16/33 kBProgress (1): 19/33 kBProgress (1): 21/33 kBProgress (1): 24/33 kBProgress (1): 27/33 kBProgress (1): 30/33 kBProgress (1): 32/33 kBProgress (1): 33 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+Progress (1): 4.1/24 kBProgress (1): 8.2/24 kBProgress (1): 12/24 kB Progress (1): 16/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 kB at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+Progress (1): 4.1/15 kBProgress (1): 8.2/15 kBProgress (1): 12/15 kB Progress (1): 15 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 kB at 3.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+Progress (1): 4.1/209 kBProgress (1): 8.2/209 kBProgress (1): 12/209 kB Progress (1): 16/209 kBProgress (1): 20/209 kBProgress (1): 24/209 kBProgress (1): 28/209 kBProgress (1): 32/209 kBProgress (1): 36/209 kBProgress (1): 40/209 kBProgress (1): 45/209 kBProgress (1): 49/209 kBProgress (1): 53/209 kBProgress (1): 57/209 kBProgress (1): 61/209 kBProgress (1): 65/209 kBProgress (1): 69/209 kBProgress (1): 73/209 kBProgress (1): 77/209 kBProgress (1): 81/209 kBProgress (1): 85/209 kBProgress (1): 90/209 kBProgress (1): 94/209 kBProgress (1): 98/209 kBProgress (1): 102/209 kBProgress (1): 106/209 kBProgress (1): 110/209 kBProgress (1): 114/209 kBProgress (1): 118/209 kBProgress (1): 122/209 kBProgress (1): 126/209 kBProgress (1): 131/209 kBProgress (1): 135/209 kBProgress (1): 139/209 kBProgress (1): 143/209 kBProgress (1): 147/209 kBProgress (1): 151/209 kBProgress (1): 155/209 kBProgress (1): 159/209 kBProgress (1): 163/209 kBProgress (1): 167/209 kBProgress (1): 171/209 kBProgress (1): 176/209 kBProgress (1): 180/209 kBProgress (1): 184/209 kBProgress (1): 188/209 kBProgress (1): 192/209 kBProgress (1): 196/209 kBProgress (1): 200/209 kBProgress (1): 204/209 kBProgress (1): 208/209 kBProgress (1): 209 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (209 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+Progress (1): 4.1/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom (11 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+Progress (1): 4.1/153 kBProgress (1): 8.2/153 kBProgress (1): 12/153 kB Progress (1): 16/153 kBProgress (1): 20/153 kBProgress (1): 24/153 kBProgress (1): 28/153 kBProgress (1): 32/153 kBProgress (1): 36/153 kBProgress (1): 40/153 kBProgress (1): 45/153 kBProgress (1): 49/153 kBProgress (1): 53/153 kBProgress (1): 57/153 kBProgress (1): 61/153 kBProgress (1): 65/153 kBProgress (1): 69/153 kBProgress (1): 73/153 kBProgress (1): 77/153 kBProgress (1): 81/153 kBProgress (1): 85/153 kBProgress (1): 90/153 kBProgress (1): 94/153 kBProgress (1): 98/153 kBProgress (1): 102/153 kBProgress (1): 106/153 kBProgress (1): 110/153 kBProgress (1): 114/153 kBProgress (1): 118/153 kBProgress (1): 122/153 kBProgress (1): 126/153 kBProgress (1): 131/153 kBProgress (1): 135/153 kBProgress (1): 139/153 kBProgress (1): 143/153 kBProgress (1): 147/153 kBProgress (1): 151/153 kBProgress (1): 153 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (153 kB at 124 kB/s)
+[INFO] 
+[INFO] ----------------------< org.example:MiniProject >-----------------------
+[INFO] Building MiniProject 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MiniProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ MiniProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MiniProject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ MiniProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ MiniProject ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ MiniProject ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:integration-test (default) @ MiniProject ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running starter.CucumberTestSuite
+00:57:11.087 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/beli.feature
+00:57:11.333 [main] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+00:57:11.338 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4f62b08
+00:57:11.346 [main] INFO  - Test Suite Started: Beli
+00:57:11.365 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/cart.feature
+00:57:11.373 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d1cacf08
+00:57:11.374 [main] INFO  - Test Suite Started: Cart
+00:57:11.374 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/detail.feature
+00:57:11.382 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c76ab428
+00:57:11.383 [main] INFO  - Test Suite Started: Detail
+00:57:11.383 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/login.feature
+00:57:11.392 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f388ff28
+00:57:11.393 [main] INFO  - Test Suite Started: Login
+00:57:11.394 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/register.feature
+00:57:11.402 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@63230c68
+00:57:11.404 [main] INFO  - Test Suite Started: Register
+00:57:11.404 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/selectcategory.feature
+00:57:11.410 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6dbf1633
+00:57:11.411 [main] INFO  - Test Suite Started: Select Category
+00:57:11.411 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/transaction.feature
+00:57:11.418 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7a9928c8
+00:57:11.419 [main] INFO  - Test Suite Started: Transaction
+00:57:11.421 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/beli.feature
+00:57:11.428 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4f62b08
+00:57:11.430 [main] INFO  - Test Suite Started: Beli
+[ERROR] WARNING: An illegal reflective access operation has occurred
+[ERROR] WARNING: Illegal reflective access by net.thucydides.core.steps.StepInterceptor (file:/C:/Users/Leni%20Cahyani/.m2/repository/net/serenity-bdd/serenity-core/3.2.1/serenity-core-3.2.1.jar) to field java.lang.reflect.Method.root
+[ERROR] WARNING: Please consider reporting this to the maintainers of net.thucydides.core.steps.StepInterceptor
+[ERROR] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[ERROR] WARNING: All illegal access operations will be denied in a future release
+
+Scenario: Barang bertambah   # src/test/resources/features/beli.feature:2
+00:57:11.595 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/beli.feature
+00:57:11.729 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Barang bertambah(beli;barang-bertambah)
+--------------------------------------------------------------------------------
+00:57:12.771 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: beliStep.iAmOnHomePage - validateTombolBeli
+00:57:12.807 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateTombolBeli
+  Given I am on home page    # starter.stepdef.beliStep.iAmOnHomePage()
+00:57:12.828 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: beliStep.iClickAnItem - clikTombolBeli
+00:57:12.841 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clikTombolBeli
+  When I click buy button    # starter.stepdef.beliStep.iClickAnItem()
+00:57:12.862 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: beliStep.theNumberOfProductsIncreases - validateJumlahBarang
+00:57:12.866 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateJumlahBarang
+  Then Product added to cart # starter.stepdef.beliStep.theNumberOfProductsIncreases()
+00:57:12.874 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Barang bertambah
+----------------------------------------------------------------------
+00:57:12.886 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/cart.feature
+00:57:12.892 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@d1cacf08
+00:57:12.893 [main] INFO  - Test Suite Started: Cart
+
+Scenario: Bayar Order          # src/test/resources/features/cart.feature:2
+00:57:12.908 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/cart.feature
+00:57:12.912 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Bayar Order(cart;bayar-order)
+--------------------------------------------------------------------------------
+00:57:13.073 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: cartStep.iAmOnHomePage - validateIconCart
+00:57:13.077 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateIconCart
+  Given on Home Page           # starter.stepdef.cartStep.iAmOnHomePage()
+00:57:13.088 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: cartStep.iClickIconCart - clikIconCart
+00:57:13.096 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clikIconCart
+  When I click Icon Cart       # starter.stepdef.cartStep.iClickIconCart()
+00:57:13.106 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: cartStep.iClickButtonBayar - validateButtonBayar
+00:57:13.108 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateButtonBayar
+  And I click Button Bayar     # starter.stepdef.cartStep.iClickButtonBayar()
+00:57:13.117 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: cartStep.showTransactionPages - validateshowTransactionPages
+00:57:13.120 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateshowTransactionPages
+  Then Show Transactions Pages # starter.stepdef.cartStep.showTransactionPages()
+00:57:13.124 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Bayar Order
+----------------------------------------------------------------------
+00:57:13.127 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/detail.feature
+00:57:13.132 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c76ab428
+00:57:13.133 [main] INFO  - Test Suite Started: Detail
+
+Scenario: Detail Produk      # src/test/resources/features/detail.feature:2
+00:57:13.144 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/detail.feature
+00:57:13.148 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Detail Produk(detail;detail-produk)
+--------------------------------------------------------------------------------
+00:57:13.284 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: detailStep.iamOnHomePage - validatetombolDetail
+00:57:13.287 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validatetombolDetail
+  Given on home page         # starter.stepdef.detailStep.iamOnHomePage()
+00:57:13.294 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: detailStep.iClickAnItem - clikTombolDetail
+00:57:13.299 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clikTombolDetail
+  When I click detail button # starter.stepdef.detailStep.iClickAnItem()
+00:57:13.308 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: detailStep.showDetailProduct - validatenamaProduct
+00:57:13.310 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validatenamaProduct
+  Then Show Detail Product   # starter.stepdef.detailStep.showDetailProduct()
+00:57:13.315 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Detail Produk
+----------------------------------------------------------------------
+00:57:13.317 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/login.feature
+00:57:13.320 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f388ff28
+00:57:13.321 [main] INFO  - Test Suite Started: Login
+
+@valid-user
+Scenario: Login Account                          # src/test/resources/features/login.feature:3
+00:57:13.339 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/login.feature
+00:57:13.342 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Login Account(login;login-account)
+--------------------------------------------------------------------------------
+00:57:13.462 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userOnHomePage - validateHomepage
+00:57:13.464 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateHomepage
+  Given user on Home Page                        # starter.stepdef.loginStep.userOnHomePage()
+00:57:13.472 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userTabIconLogin - clickIconLogin
+00:57:13.476 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickIconLogin
+  When user tap icon login                       # starter.stepdef.loginStep.userTabIconLogin()
+00:57:13.484 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userInputEmail - clickInputEmail
+00:57:13.491 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickInputEmail
+  And user input "leni@gmail.com" on email field # starter.stepdef.loginStep.userInputEmail(java.lang.String)
+00:57:13.498 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userInputPsw - clickInputPsw
+00:57:13.508 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickInputPsw
+  And user input "123" on password field         # starter.stepdef.loginStep.userInputPsw(java.lang.String)
+00:57:13.516 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userTabButtonLogin - clickButtonLogin
+00:57:13.521 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickButtonLogin
+  And user tab button login                      # starter.stepdef.loginStep.userTabButtonLogin()
+00:57:13.528 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userOnAlthashopPage - validateAltashopPage
+00:57:13.530 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateAltashopPage
+  Then android user on altashop page             # starter.stepdef.loginStep.userOnAlthashopPage()
+00:57:13.534 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Login Account
+----------------------------------------------------------------------
+00:57:13.536 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/register.feature
+00:57:13.541 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@63230c68
+00:57:13.542 [main] INFO  - Test Suite Started: Register
+
+@valid-register
+Scenario: Register Account                     # src/test/resources/features/register.feature:3
+00:57:13.595 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/register.feature
+00:57:13.600 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Register Account(register;register-account)
+--------------------------------------------------------------------------------
+00:57:13.636 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userOnHomePage - validateHomepage
+00:57:13.638 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateHomepage
+  Given user on Home Page                      # starter.stepdef.loginStep.userOnHomePage()
+00:57:13.646 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: loginStep.userTabIconLogin - clickIconLogin
+00:57:13.651 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clickIconLogin
+  When user tap icon login                     # starter.stepdef.loginStep.userTabIconLogin()
+  And user click link register
+  And user input "Leni Cahyani" on email field # starter.stepdef.loginStep.userInputEmail(java.lang.String)
+  And user input "i@gmail.com" on email field  # starter.stepdef.loginStep.userInputEmail(java.lang.String)
+  And user input "123" on password field       # starter.stepdef.loginStep.userInputPsw(java.lang.String)
+  And user tab button login                    # starter.stepdef.loginStep.userTabButtonLogin()
+  Then android user on altashop page           # starter.stepdef.loginStep.userOnAlthashopPage()
+00:57:13.698 [main] INFO  - 
+  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
+ |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
+   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
+   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+
+Register Account
+-----------------------------------------------------------------------------
+00:57:13.707 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/selectcategory.feature
+00:57:13.713 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@6dbf1633
+00:57:13.714 [main] INFO  - Test Suite Started: Select Category
+
+Scenario: Select Category Produk      # src/test/resources/features/selectcategory.feature:2
+00:57:13.726 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/selectcategory.feature
+00:57:13.731 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Select Category Produk(select-category;select-category-produk)
+--------------------------------------------------------------------------------
+00:57:13.845 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: selectcategoryStep.iAmOnHomePage - validatefieldSelectCategory
+00:57:13.848 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validatefieldSelectCategory
+  Given On home page                  # starter.stepdef.selectcategoryStep.iAmOnHomePage()
+00:57:13.855 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: selectcategoryStep.iClickSelectCategory - clikFieldSelectCategory
+00:57:13.861 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clikFieldSelectCategory
+  When I click Select Category button # starter.stepdef.selectcategoryStep.iClickSelectCategory()
+00:57:13.868 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: selectcategoryStep.iSelectCategory - validateselectCategory
+00:57:13.871 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateselectCategory
+  And I Select Category               # starter.stepdef.selectcategoryStep.iSelectCategory()
+00:57:13.880 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: selectcategoryStep.showProductbyCategory - validateshowCategory
+00:57:13.882 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateshowCategory
+  Then Show Product by Category       # starter.stepdef.selectcategoryStep.showProductbyCategory()
+00:57:13.887 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Select Category Produk
+----------------------------------------------------------------------
+00:57:13.890 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/transaction.feature
+00:57:13.894 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7a9928c8
+00:57:13.895 [main] INFO  - Test Suite Started: Transaction
+
+Scenario: History Transaction # src/test/resources/features/transaction.feature:2
+00:57:13.905 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/src/test/resources/features/transaction.feature
+00:57:13.908 [main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+History Transaction(transaction;history-transaction)
+--------------------------------------------------------------------------------
+00:57:14.003 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: transactionStep.iAmOnHomePage - validateIconUser
+00:57:14.006 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateIconUser
+  Given on Home page          # starter.stepdef.transactionStep.iAmOnHomePage()
+00:57:14.014 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: transactionStep.iClickIconUser - clikIconUser
+00:57:14.018 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: clikIconUser
+  When I click Icon User      # starter.stepdef.transactionStep.iClickIconUser()
+00:57:14.026 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: transactionStep.iSelectLogout - validateselectLogout
+00:57:14.029 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateselectLogout
+  And I Select Transaction    # starter.stepdef.transactionStep.iSelectLogout()
+00:57:14.035 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: transactionStep.showTransPage - validateshowTransPages
+00:57:14.037 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: validateshowTransPages
+  Then Show Transaction Pages # starter.stepdef.transactionStep.showTransPage()
+00:57:14.041 [main] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+History Transaction
+----------------------------------------------------------------------
+00:57:14.051 [main] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+00:57:14.189 [main] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+00:57:14.209 [main] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 7 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14
+00:57:14.211 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:Login Account
+00:57:14.211 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Beli:Barang bertambah
+00:57:14.211 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Detail:Detail Produk
+00:57:14.212 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Beli:Barang bertambah
+00:57:14.213 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Detail:Detail Produk
+00:57:14.212 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Transaction:History Transaction
+00:57:14.212 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:Register Account
+00:57:14.212 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Login:Login Account
+00:57:14.211 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Cart:Bayar Order
+00:57:14.212 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Select Category:Select Category Produk
+00:57:14.215 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Register:Register Account
+00:57:14.215 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Transaction:History Transaction
+00:57:14.216 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Cart:Bayar Order
+00:57:14.216 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@3eadad14: Generating report for test outcome: Select Category:Select Category Produk
+00:57:14.232 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Barang bertambah to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\c34f2c82c86644e94820cd50164f33021fd8c7118483be03715cf254665982a3.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\c34f2c82c86644e94820cd50164f33021fd8c7118483be03715cf254665982a3.json90760b43-40f2-43ce-9875-b479ea6fd2c8)
+00:57:14.232 [pool-2-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for History Transaction to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\99b8c50dd5195717da40abe7180fa91f39828bc28fffa7bf003f5325cb8aab57.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\99b8c50dd5195717da40abe7180fa91f39828bc28fffa7bf003f5325cb8aab57.jsond7d1fceb-b4b3-4832-926e-bef3a556772f)
+00:57:14.233 [pool-2-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Select Category Produk to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\c584b8e221775859c19e5f88ddbf701338d764b90336b9293c0807c98af631bc.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\c584b8e221775859c19e5f88ddbf701338d764b90336b9293c0807c98af631bc.jsonb0ed05eb-6d60-4a52-9576-95d62769993e)
+00:57:14.232 [pool-2-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Register Account to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\c1576ebeb153caf92575c95ed491b360be9569c65f75bc7acb7d13fd09f38307.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\c1576ebeb153caf92575c95ed491b360be9569c65f75bc7acb7d13fd09f38307.json7adc08a1-3102-4a8b-a4d0-14c68fac9b1b)
+00:57:14.232 [pool-2-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Detail Produk to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\83af4d7f68e973812f66f578d8cea1de2744d4a76b81f3445f3044e169453e0c.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\83af4d7f68e973812f66f578d8cea1de2744d4a76b81f3445f3044e169453e0c.jsone7385d4c-fa35-496c-99d3-4b11ebf90446)
+00:57:14.232 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Bayar Order to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\900452f74fa79a8157003851e9d26c971c0dfc33a5831050260ba6fdf2a4aec8.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\900452f74fa79a8157003851e9d26c971c0dfc33a5831050260ba6fdf2a4aec8.jsonad0da266-3365-4b65-8b47-103e72518dfe)
+00:57:14.232 [pool-2-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Login Account to file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\6804bad3409d71568f302f7daa6a280ac4f088f5b95c02b4751bf88a15e84a8e.json (using temp file D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\site\serenity\6804bad3409d71568f302f7daa6a280ac4f088f5b95c02b4751bf88a15e84a8e.jsonfc398723-5283-4cf1-8573-ce618d08a9b2)
+00:57:14.297 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Select Category:Select Category Produk done
+00:57:14.297 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Beli:Barang bertambah done
+00:57:14.297 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Transaction:History Transaction done
+00:57:14.297 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Cart:Bayar Order done
+00:57:14.297 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Detail:Detail Produk done
+00:57:14.298 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:Register Account done
+00:57:14.298 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:Login Account done
+00:57:14.298 [main] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+00:57:14.298 [main] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 89 ms
+00:57:14.298 [main] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 7 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c
+00:57:14.300 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Beli:Barang bertambah
+00:57:14.300 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Beli:Barang bertambah
+00:57:14.300 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Cart:Bayar Order
+00:57:14.301 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:Login Account
+00:57:14.301 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:Register Account
+00:57:14.301 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Detail:Detail Produk
+00:57:14.301 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Detail:Detail Produk
+00:57:14.301 [pool-3-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Transaction:History Transaction
+00:57:14.301 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Cart:Bayar Order
+00:57:14.301 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Login:Login Account
+00:57:14.301 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Register:Register Account
+00:57:14.301 [pool-3-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Transaction:History Transaction
+00:57:14.301 [pool-3-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Select Category:Select Category Produk
+00:57:14.302 [pool-3-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@119f072c: Generating report for test outcome: Select Category:Select Category Produk
+00:57:15.229 [pool-3-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Detail:Detail Produk done
+00:57:15.230 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Beli:Barang bertambah done
+00:57:15.230 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Cart:Bayar Order done
+00:57:15.231 [pool-3-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:Register Account done
+00:57:15.231 [pool-3-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Transaction:History Transaction done
+00:57:15.232 [pool-3-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Select Category:Select Category Produk done
+00:57:15.235 [pool-3-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:Login Account done
+00:57:15.235 [main] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+00:57:15.236 [main] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 938 ms
+[ERROR] Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.523 s <<< FAILURE! - in starter.CucumberTestSuite
+[ERROR] Register.Register Account  Time elapsed: 0.157 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user click link register' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("user click link register")
+public void user_click_link_register() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   The step 'user click link register' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("user click link register")
+public void user_click_link_register() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+[INFO] 
+[ERROR] Tests run: 7, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- serenity-maven-plugin:3.2.1:aggregate (serenity-reports) @ MiniProject ---
+[INFO] Test results for 9 tests generated in 1.7 secs in directory: file:/D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/target/site/serenity/
+[INFO] -----------------------------------------
+[INFO]  SERENITY TESTS: PENDING
+[INFO] -----------------------------------------
+[INFO] | Test cases executed    | 9
+[INFO] | Tests executed         | 9
+[INFO] | Tests passed           | 8
+[INFO] | Tests failed           | 0
+[INFO] | Tests with errors      | 0
+[INFO] | Tests compromised      | 0
+[INFO] | Tests aborted          | 0
+[INFO] | Tests pending          | 1
+[INFO] | Tests ignored/skipped  | 0
+[INFO] ------------------------ | --------------
+[INFO] | Total Duration         | 3s 502ms
+[INFO] | Fastest test took      | 098ms
+[INFO] | Slowest test took      | 1s 181ms
+[INFO] -----------------------------------------
+[INFO] 
+[INFO] SERENITY REPORTS
+[INFO]   - Full Report: file:///D:/Kuliahku/tugas%20kampus%20merdeka/Contoh%20Materi%20BDD/Altashop/target/site/serenity/index.html
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M5:verify (default) @ MiniProject ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.305 s
+[INFO] Finished at: 2022-05-18T00:57:19+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-failsafe-plugin:3.0.0-M5:verify (default) on project MiniProject: There are test failures.
+[ERROR] 
+[ERROR] Please refer to D:\Kuliahku\tugas kampus merdeka\Contoh Materi BDD\Altashop\target\failsafe-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
